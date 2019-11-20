@@ -4,7 +4,7 @@ import './style.css';
 
 const Footer = () => (
     <footer>
-        <h3>Redes Sociais</h3>
+        <h1 className="titulo">Redes Sociais</h1>
         <p>
             <a href="#" target="_blank">Facebook</a> • <a href="#" target="_blank">Twitter</a> • <a href="#" target="_blank">Instagram</a> • <a href="#" target="_blank">Linkedin</a>
         </p>

@@ -2,4 +2,20 @@ footer {
     padding: 30px;
     background: rgb(83, 79, 75);
     color: rgb(175, 175, 175);
+    text-align: center;
+}
+
+footer h1.titulo {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
+
+footer p a:hover {
+    color: rgb(175, 175, 175);
+    text-decoration: underline;
 }
