@@ -12,28 +12,30 @@ const Corpo = () => (
         <h2>Estudos</h2>
         
         <h3>Acadêmicos</h3>
-        <p>Ensino Fundamental Completo - EECFJ</p>
-        <p>Cursando o Segundo ano do Ensino Médio - EEFO</p>
+        <div className="box_info">
+            <p>Ensino Fundamental Completo - EECFJ</p>
+            <p>Ensino Médio - EEFO (CURSANDO 2º ANO)</p>
+        </div>
         
         <h3>Independentes</h3>
-        <ul className="lista web">
-            <li>HTML 5</li>
-            <li>CSS 3</li>
-            <li>
-                JavaScript
-                <ul>
-                    <li>jQuery</li>
-                    <li>React JS</li>
-                    <li>Node JS</li>
-                </ul>
-            </li>
-            <li>PHP</li>
-        </ul>
-        <ul className="lista sistemas">
-            <li>Java</li>
-            <li>Python</li>
-            <li>Unix Bash Script</li>
-        </ul>
+        <div className="box_info">
+            <ul className="lista">
+                <li>HTML 5</li>
+                <li>CSS 3</li>
+                <li>
+                    JavaScript
+                    <ul>
+                        <li>jQuery</li>
+                        <li>React JS</li>
+                        <li>Node JS</li>
+                    </ul>
+                </li>
+                <li>PHP</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Unix Bash Script</li>
+            </ul>
+        </div>
     </div>
 );
 
