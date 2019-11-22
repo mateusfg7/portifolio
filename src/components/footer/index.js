@@ -8,6 +8,7 @@ const Footer = () => (
         <p>
             <a href="#" target="_blank">Facebook</a> • <a href="#" target="_blank">Twitter</a> • <a href="#" target="_blank">Instagram</a> • <a href="#" target="_blank">Linkedin</a>
         </p>
+        <h2 className="copy">&copy; Mateus Felipe Gonçalves</h2>
     </footer>
 );
 

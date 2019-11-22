@@ -1,11 +1,11 @@
 header#main-header {
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    background: rgb(214, 202, 176);
-    color: #282725;
-    border-bottom: solid 2px #282725;
+    background: #C8FF00;
+    color: #040004;
+    border-bottom: solid 2px #040004;
 }
 
 h1 {

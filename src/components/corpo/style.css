@@ -1,29 +1,28 @@
 div#corpo {
     padding: 50px;
-    background: #282725;
-    color: rgb(175, 175, 175);
+    background: #e7e7e7;
+    color: rgb(44, 44, 44);
     margin: 200px auto;
     font-size: 15pt;
 }
 
 div#corpo h2{
     font-size: 30pt;
-    color: rgb(214, 202, 176);
+    color: rgb(0, 0, 0);
     margin-bottom: 5px;
 }
 div#corpo h3{
     font-size: 20pt;
     text-decoration: underline;
-    text-decoration-color: rgb(214, 202, 176);
+    text-decoration-color: #C8FF00;
     margin: 15px auto;
 }
 
 div.box_info{
-    border: 0.5px solid rgb(214, 202, 176);
+    border: 2px solid #C8FF00;
     max-width: 500px;
     padding: 20px;
     border-radius: 3px;
-    background: rgba(214, 202, 176, .1);
 }
 
 ul {

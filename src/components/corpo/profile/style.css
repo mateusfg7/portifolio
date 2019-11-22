@@ -1,7 +1,7 @@
 div#imagem{
     float: right;
     padding: 10px;
-    background: #54514C;
+    background: #FFFFFB;
     border-radius: 3px;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
@@ -11,23 +11,21 @@ div#imagem{
 img.profile{
     width: 200px;
     height: 200px;
-    border-radius: 100%;
-    filter: sepia(25%);
-    transition: 1s;
+    border-radius: 3px;
 }
-img.profile:hover{
-    filter: none;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+
+div.icon_section {
+    background: rgb(235, 235, 235);
+    border-radius: 3px;
 }
 
 img.icon{
     width: 30px;
     height: 30px;
     margin: 5px 20px auto 20px;
-    filter: sepia(100%);
-    transition: .4s;
+    filter: grayscale(80%);
+    transition: .5s;
 }
-
 img.icon:hover{
-    filter: sepia(50%);
+    filter: none;
 }
