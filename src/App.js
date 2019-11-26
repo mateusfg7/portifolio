@@ -6,8 +6,6 @@ import Header from './components/header';
 import Corpo from './components/corpo';
 import Footer from './components/footer';
 
-console.log("TESTEE");
-
 function App() {
   return (
     <div>
