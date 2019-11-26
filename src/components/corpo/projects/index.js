@@ -24,8 +24,6 @@ export default class Imagem extends Component {
     loadInfo = async () => {
         const response = await api.get('/users/mateusfg7/repos');
         this.setState({ dados: response.data });
-        
-        console.log(this.state.dados)
 
         this.setState({ projeto1: this.state.dados[6]});
         this.setState({ projeto2: this.state.dados[17]});
@@ -37,6 +35,8 @@ export default class Imagem extends Component {
     render() {
         return (
             <div className="main">
+
+                <h2>Projects</h2>
 
                 <div className="project">
                     <h3>{this.state.projeto1.name}</h3>
