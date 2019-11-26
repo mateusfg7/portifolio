@@ -6,7 +6,7 @@ import Header from './components/header';
 import Corpo from './components/corpo';
 import Footer from './components/footer';
 
-const api = "https://api.github.com/search/users?q=mateusfg7"
+console.log("TESTEE");
 
 function App() {
   return (
