@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../style.css';
+
 const Independentes = () => (
     <div>
         <h3>Independentes</h3>

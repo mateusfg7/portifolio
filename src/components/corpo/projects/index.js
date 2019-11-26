@@ -1,7 +1,11 @@
 import React from 'react';
 
-// import { Container } from './styles';
+// import './styles';
 
-const Projects = () => <div />;
+const Projects = () => (
+    <div className="main_div">
+
+    </div>
+);
 
 export default Projects;

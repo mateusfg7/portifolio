@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../style.css';
+
 
 const Academicos = () => (
     <div>

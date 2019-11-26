@@ -1,0 +1,32 @@
+div.box_info{
+    border: 1px solid rgba(200, 255, 0, 0.342);
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+ul {
+    margin: 0;
+    padding: 10px;
+    transition: .5s;
+}
+
+ul li::before {
+    content: '» ';
+    color: #000;
+}
+
+ul li:hover {
+    color: #000;
+}
+ul li:hover::before {
+    color: rgb(200, 255, 0);
+}
+
+ul li ul li::before{
+    content: '○ ';
+}
+
+ul.lista li{
+    margin-bottom: 1px;
+}
