@@ -1,3 +1,7 @@
+* {
+    transition: .5s;
+}
+
 div#corpo {
     padding: 50px;
     background: #e7e7e7;
@@ -14,12 +18,12 @@ div#corpo h2{
 div#corpo h3{
     font-size: 20pt;
     text-decoration: underline;
-    text-decoration-color: #C8FF00;
+    text-decoration-color: rgba(200, 255, 0, 0.342);
     margin: 15px auto;
 }
 
 div.box_info{
-    border: 2px solid #C8FF00;
+    border: 1px solid rgba(200, 255, 0, 0.342);
     max-width: 500px;
     padding: 20px;
     border-radius: 3px;
@@ -28,6 +32,23 @@ div.box_info{
 ul {
     margin: 0;
     padding: 10px;
+    transition: .5s;
+}
+
+ul li::before {
+    content: '» ';
+    color: #000;
+}
+
+ul li:hover {
+    color: #000;
+}
+ul li:hover::before {
+    color: rgb(200, 255, 0);
+}
+
+ul li ul li::before{
+    content: '○ ';
 }
 
 ul.lista li{
