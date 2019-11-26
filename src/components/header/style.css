@@ -1,5 +1,5 @@
 header#main-header {
-    height: 200px;
+    height: 620px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,5 +9,5 @@ header#main-header {
 }
 
 h1 {
-    font-size: 20pt;
+    font-size: 50pt;
 }

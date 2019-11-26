@@ -1,10 +1,10 @@
 import React from 'react';
 
-// import './styles';
+import './style.css';
 
 const Projects = () => (
-    <div className="main_div">
-
+    <div className="main">
+    rfdgb
     </div>
 );
 
