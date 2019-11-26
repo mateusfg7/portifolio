@@ -4,7 +4,9 @@ import './style.css';
 
 const Projects = () => (
     <div className="main">
-    rfdgb
+        <div className="project">
+            
+        </div>
     </div>
 );
 
