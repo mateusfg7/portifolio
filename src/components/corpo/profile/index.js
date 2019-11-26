@@ -12,7 +12,6 @@ import api from '../../../services/api'
 export default class Imagem extends Component {
 
     state = {
-        dados: [],
         avatar: []
     };
 
@@ -21,9 +20,8 @@ export default class Imagem extends Component {
     }
 
     loadInfo = async () => {
-        const response = await api.get('/users?q=mateusfg7');
-        this.setState({ dados: response.data.items[0] });
-        this.setState({ avatar: this.state.dados.avatar_url });
+        const response = await api.get('/search/users?q=mateusfg7');
+        this.setState({ avatar: response.data.items[0].avatar_url });
     };
 
     render() {
