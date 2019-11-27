@@ -10,22 +10,19 @@ ul {
     padding: 10px;
 }
 
-ul li::before {
-    content: '» ';
-    color: #000;
-}
-
-ul li:hover {
-    color: #000;
+ul li.forte {
+    olor: #000;
     font-weight: bold;
 }
-ul li:hover::before {
+ul li.forte::before {
     color: rgb(200, 255, 0);
 }
 
-ul li ul li::before{
-    content: '○ ';
+ul li::before {
+    content: '✔ ';
+    color: #000;
 }
+
 
 ul.lista li{
     margin-bottom: 1px;
