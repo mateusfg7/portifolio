@@ -1,8 +1,8 @@
 div#corpo {
     padding: 50px;
-    background: #e7e7e7;
+    background: rgb(247, 247, 247);
     color: rgb(44, 44, 44);
-    margin: 600px auto auto auto;
+    margin: 450px auto auto auto;
     font-size: 15pt;
 }
 
