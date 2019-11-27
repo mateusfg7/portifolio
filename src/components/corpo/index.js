@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 
 import Academicos from './estudos/academicos';
-import Independentes from './estudos/independentes'
+import Tecnologias from './estudos/Tecnologias'
 import Imagem from './profile';
 import Projects from './projects'
 
@@ -14,7 +14,7 @@ const Corpo = () => (
         <Imagem />
         <h2>Estudos</h2>
         <Academicos />
-        <Independentes />
+        <Tecnologias />
         <Projects />
     </div>
 );
