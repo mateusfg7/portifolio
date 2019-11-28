@@ -36,7 +36,7 @@ export default class Imagem extends Component {
         return (
             <div className="main">
 
-                <h2>Projects</h2>
+                <h2>Projetos</h2>
 
                 <div className="project">
                     <h3>{this.state.projeto1.name}</h3>
