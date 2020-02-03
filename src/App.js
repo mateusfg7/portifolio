@@ -6,7 +6,7 @@ import Header from './components/header';
 import Corpo from './components/corpo';
 import Footer from './components/footer';
 
-function App() {
+export default function App() {
   return (
     <div id="App">
       <Header/>
@@ -15,5 +15,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
