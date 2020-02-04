@@ -8,7 +8,7 @@ import Footer from './components/footer';
 
 export default function App() {
   return (
-    <div id="App">
+    <div id="App" className="container-fluid">
       <Header/>
       <Corpo />
       <Footer />
