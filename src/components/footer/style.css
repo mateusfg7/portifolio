@@ -1,8 +1,10 @@
 footer {
-    padding: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* padding: 60px; */
     background: rgb(17, 17, 17);
     color: #e7e7e7;
-    text-align: center;
 }
 
 footer h1.titulo {
@@ -20,7 +22,7 @@ footer p a:hover {
     text-decoration: underline;
 }
 
-h2.copy{
+.copy{
     margin-top: 7px;
     color: #e7e7e736;
 }
