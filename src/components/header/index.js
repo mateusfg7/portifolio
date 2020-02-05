@@ -9,7 +9,7 @@ const icon = iconName => <FontAwesomeIcon icon={iconName} />
 
 const Header = () => (
     <header>
-        <h1 id="headerTitle">Hi! I'm Mateus Felipe.</h1>
+        <h1 id="headerTitle">Hi! I'm Mateus Felipe<span id="piscar">|</span></h1>
         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
             
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMainToggler"

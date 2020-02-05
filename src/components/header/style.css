@@ -1,6 +1,17 @@
+@keyframes piscar {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 #headerTitle{
-    background: #9A9DA0;
+    /* background: #9A9DA0; */
+    background: rgb(29, 29, 29);
     margin: 0;
-    padding: 50px;
-    color: #343A40;
+    padding: 15px;
+    color: #c5c5c5;
+}
+
+#piscar {
+    animation: piscar 1s 0s infinite;
 }
