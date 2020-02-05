@@ -2,10 +2,8 @@ import React from 'react';
 
 import './style.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import icon from '../../services/fontawesome'
 import { faCoffee, faFolderMinus } from '@fortawesome/free-solid-svg-icons'
-
-const icon = iconName => <FontAwesomeIcon icon={iconName} />
 
 const Header = () => (
     <header>
