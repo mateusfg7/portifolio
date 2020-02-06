@@ -1,26 +1,19 @@
 footer {
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    /* padding: 60px; */
-    background: rgb(17, 17, 17);
-    color: #e7e7e7;
+    bottom: 0; 
 }
 
-footer h1.titulo {
+footer h2.titulo {
     margin-bottom: 15px;
     font-size: 20px;
 }
 
-footer p a {
+footer a {
     text-decoration: none;
     color: #cccccc;
+    font-size: 16pt;
 }
 
-footer p a:hover {
-    color: #e7e7e7;
-    text-decoration: underline;
-}
 
 .copy{
     margin-top: 7px;
