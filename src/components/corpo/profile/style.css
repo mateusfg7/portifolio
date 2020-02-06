@@ -1,22 +1,6 @@
-div#imagem{
-    float: right;
-    padding: 10px;
-    background: #FFFFFB;
-    border-radius: 3px;
-    text-align: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
-    max-width: 500px;
-}
-
 img.profile{
     width: 200px;
     height: 200px;
-    border-radius: 3px;
-}
-
-div.icon_section {
-    background: rgb(235, 235, 235);
-    border-radius: 3px;
 }
 
 img.icon{
@@ -25,7 +9,4 @@ img.icon{
     margin: 5px 20px auto 20px;
     filter: grayscale(80%);
     transition: .5s;
-}
-img.icon:hover{
-    filter: none;
 }

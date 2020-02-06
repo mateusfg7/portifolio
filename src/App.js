@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className="container-fluid p-0">
       <Header/>
-      {/* <Corpo /> */}
+      <Corpo />
       <Footer />
     </div>
   );

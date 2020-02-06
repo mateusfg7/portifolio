@@ -6,14 +6,9 @@ const Tecnologias = () => (
     <div>
         <h3>Tecnologias</h3>
         <div className="box_info">
-
-            <h4>Forte</h4>
-            <ul className="lista">
+            <ul className="list-unstyled">
                 <li className="forte">Python</li>
                 <li className="forte">JavaScript</li>
-            </ul>
-            <h4>Estudada</h4>
-            <ul className="lista">
                 <li className="estudada">HTML 5</li>
                 <li className="estudada">CSS 3</li>
                 <li className="estudada">PHP</li>
