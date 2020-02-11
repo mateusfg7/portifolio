@@ -10,3 +10,8 @@ img.icon{
     filter: grayscale(80%);
     transition: .5s;
 }
+
+ul.main-section {
+    padding: 5px;
+    background: #fff;
+}

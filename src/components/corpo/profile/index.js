@@ -1,6 +1,3 @@
-/* https://wa.me/5537998440073\ */
-
-
 import React, { useState, useEffect } from 'react';
 
 import './style.css';
@@ -15,12 +12,12 @@ const MainSkills = () => {
     const [profile, setProfile] = useState([]);
 
     useEffect(async () => {
-        const response = await api.get('/search/users?q=mateusfg7');
-        setProfile({ avatar: response.data.items[0].avatar_url });
+        const response = await api.get('/users/mateusfg7');
+        setProfile({ avatar: response.data.avatar_url });
     }, []);
 
     return (
-    <ul className="list-unstyled">
+    <ul className="list-unstyled main-section">
         <li className="media">
             <img src={profile.avatar} className="mr-3 profile"/>
             <div className="media-body">
