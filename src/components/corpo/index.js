@@ -13,6 +13,7 @@ const Corpo = () => (
     <section className="conteiner p-2">
         <MainSkills />
         <Formacao />
+        <Projects />
     </section>
 );
 

@@ -19,10 +19,10 @@ const Header = () => (
             
             <section className="collapse navbar-collapse" id="navbarMainToggler">
                 <div className="navbar-nav">
-                    <a className="nav-item nav-link" href="#">Skills</a>
-                    <a className="nav-item nav-link" href="#">Formação</a>
-                    <a className="nav-item nav-link" href="#">Projetos</a>
-                    <a className="nav-item nav-link" href="#">Contato</a>
+                    <a className="nav-item nav-link" href="#skills">Skills</a>
+                    <a className="nav-item nav-link" href="#formacao">Formação</a>
+                    <a className="nav-item nav-link" href="#projetos">Projetos</a>
+                    <a className="nav-item nav-link" href="#contato">Contato</a>
                 </div>
             </section>
             
