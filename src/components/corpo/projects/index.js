@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 import './style.css';
 
-import api from '../../../services/api'
-
 export default function Imagem() {
 
     const [repositories, setRepositories] = useState([])
@@ -11,7 +9,7 @@ export default function Imagem() {
     useEffect(async () => {
         const response = await fetch('https://api.github.com/users/mateusfg7/repos')
         const data = await response.json()
-        setRepositories([data[0], data[27]])
+        setRepositories([data[10], data[27], data[13], data[3], data[9], data[28]])
         
     }, [])
 
