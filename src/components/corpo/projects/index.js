@@ -1,25 +1,39 @@
-
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import './style.css';
 
 import api from '../../../services/api'
 
+export default function Imagem() {
 
+    const [repositories, setRepositories] = useState([])
+
+    useEffect(async () => {
+        const response = await fetch('https://api.github.com/users/mateusfg7/repos')
+        const data = await response.json()
+        setRepositories([data[0], data[27]])
+        
+    }, [])
+
+    return(
+        <div className="main">
+        
+            <h2 id="projetos">Projetos</h2>
+            {console.log(repositories)}
+            { repositories.map(repo => (
+                <div className="project">
+                    <h3>{repo.name}</h3>
+                    <p>{repo.description}</p>
+                    <p>{repo.language}</p>
+                    <a href={repo.svn_url} target="_blank">GitHub</a>
+                </div>
+            )) }
+        </div>
+    )
+}
+
+/*
 export default class Imagem extends Component {
-
-    state = {
-        dados: [],
-        projeto1: [],
-        projeto2: [],
-        projeto3: [],
-        projeto4: [],
-        projeto5: [],
-    };
-
-    componentDidMount() {
-        this.loadInfo();
-    }
 
     loadInfo = async () => {
         const response = await api.get('/users/mateusfg7/repos');
@@ -77,3 +91,4 @@ export default class Imagem extends Component {
         );
   }
 }
+*/
