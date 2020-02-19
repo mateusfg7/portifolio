@@ -1,0 +1,30 @@
+* {
+    transition: .1s;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+footer a:hover span.contact {
+    color: #fff;
+}
+footer a.contact-phone:hover span.wpp {
+    color: #59c965;
+}
+footer a.contact-email:hover span.email {
+    color: #df473c;
+}
+
+footer a.face:hover {
+    color: #3B589C;
+}
+footer a.insta:hover {
+    color: #E33366;
+}
+footer a.tt:hover {
+    color: #1DA1F2;
+}
+footer a.in:hover {
+    color: #007BB6;
+}

@@ -1,5 +1,4 @@
-
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import './style.css';
 
@@ -8,33 +7,27 @@ import gmail from './img/gmail.png';
 
 import api from '../../../services/api'
 
+const MainSkills = () => {
 
-export default class Imagem extends Component {
+    const [profile, setProfile] = useState([]);
 
-    state = {
-        avatar: []
-    };
+    useEffect(async () => {
+        const response = await api.get('/users/mateusfg7');
+        setProfile({ avatar: response.data.avatar_url });
+    }, []);
 
-    componentDidMount() {
-        this.loadInfo();
-    }
-
-    loadInfo = async () => {
-        const response = await api.get('/search/users?q=mateusfg7');
-        this.setState({ avatar: response.data.items[0].avatar_url });
-    };
-
-    render() {
-        return (
-            <div id="imagem">
-                <div>
-                    <img src={this.state.avatar} className="profile" alt="Foto Pessoal" /> <br/>
-                    <div className="icon_section">
-                        <a href="https://wa.me/5537998440073" target="_blank" title="+55 (37) 99844-0073"><img src={whatsapp} className="icon" alt="Whatsapp"/></a>
-                        <a href="mailto:mateusfelipefg77@gmail.com" title="mateusfelipefg77@gmail.com"><img src={gmail} className="icon" alt="Gmail"/></a>
-                    </div>
-                </div>
+    return (
+    <ul className="list-unstyled main-section">
+        <li className="media">
+            <img src={profile.avatar} className="mr-3 profile"/>
+            <div className="media-body">
+                <h5 className="mt-0 mb-1" id="skills">My Skills</h5>
+                eu sou eu, sendo eu, porque se eu não for eu quem sera eu, nesse caso eu sou obrigado a ser eu!
+                (texto teste)
             </div>
-        );
-  }
-}
+        </li>
+    </ul>
+    )
+};
+
+export default MainSkills;

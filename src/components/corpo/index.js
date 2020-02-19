@@ -2,21 +2,19 @@ import React from 'react';
 
 import './style.css';
 
-import Academicos from './estudos/academicos';
+import MainSkills from './profile';
+import Formacao from './estudos/formacao'
 import Tecnologias from './estudos/Tecnologias'
-import Imagem from './profile';
 import Projects from './projects'
 
 
 
 const Corpo = () => (
-    <div id="corpo">
-        <Imagem />
-        <h2>Estudos</h2>
-        <Academicos />
-        <Tecnologias />
+    <section className="conteiner p-2">
+        <MainSkills />
+        <Formacao />
         <Projects />
-    </div>
+    </section>
 );
 
 export default Corpo;

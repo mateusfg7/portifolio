@@ -1,26 +1,33 @@
 footer {
-    padding: 60px;
-    background: rgb(17, 17, 17);
-    color: #e7e7e7;
-    text-align: center;
+    position: relative;
+    bottom: 0;
+    padding: 10px;
 }
 
-footer h1.titulo {
-    margin-bottom: 15px;
+.info_box {
+    padding: 10px;
+}
+
+footer h1 {
+    font-size: 30px;
+}
+footer h2 {
     font-size: 20px;
 }
 
-footer p a {
+footer a {
     text-decoration: none;
     color: #cccccc;
 }
-
-footer p a:hover {
-    color: #e7e7e7;
-    text-decoration: underline;
+.icon {
+    font-size: 16pt;
+}
+.contact {
+    font-size: 14pt;
 }
 
-h2.copy{
+
+.copy{
     margin-top: 7px;
     color: #e7e7e736;
 }

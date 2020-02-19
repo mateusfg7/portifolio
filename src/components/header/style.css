@@ -1,29 +1,17 @@
-header#main-header {
-    height: 650px;
-    background: #C8FF00;
-    color: #040004;
-    border-bottom: solid 2px #040004;
+@keyframes piscar {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
-div.center{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
+#headerTitle{
+    /* background: #9A9DA0; */
+    background: rgb(29, 29, 29);
+    margin: 0;
+    padding: 15px;
+    color: #c5c5c5;
 }
 
-div.title {
-    height: 50%;
-}
-div.link {
-    height: 30%;
-}
-
-h1 {
-    font-size: 50pt;
-}
-
-.break {
-    flex-basis: 100%;
-    height: 100000;
+#piscar {
+    animation: piscar 1s 0s infinite;
 }
