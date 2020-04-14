@@ -1,6 +1,6 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const icon = iconName => <FontAwesomeIcon icon={iconName} />
+const icon = (iconName) => <FontAwesomeIcon icon={iconName} />;
 
-export default icon
+export default icon;

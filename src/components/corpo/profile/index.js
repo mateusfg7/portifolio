@@ -5,10 +5,9 @@ import './style.css';
 import whatsapp from './img/whatsapp.png';
 import gmail from './img/gmail.png';
 
-import api from '../../../services/api'
+import api from '../../../services/api';
 
 const MainSkills = () => {
-
     const [profile, setProfile] = useState([]);
 
     useEffect(async () => {
@@ -17,17 +16,17 @@ const MainSkills = () => {
     }, []);
 
     return (
-    <ul className="list-unstyled main-section">
+      <ul className="list-unstyled main-section">
         <li className="media">
-            <img src={profile.avatar} className="mr-3 profile"/>
-            <div className="media-body">
-                <h5 className="mt-0 mb-1" id="skills">My Skills</h5>
-                eu sou eu, sendo eu, porque se eu não for eu quem sera eu, nesse caso eu sou obrigado a ser eu!
-                (texto teste)
-            </div>
+          <img src={profile.avatar} className="mr-3 profile" />
+          <div className="media-body">
+            <h5 className="mt-0 mb-1" id="skills">My Skills</h5>
+            eu sou eu, sendo eu, porque se eu não for eu quem sera eu, nesse caso eu sou obrigado a ser eu!
+            (texto teste)
+          </div>
         </li>
-    </ul>
-    )
+      </ul>
+    );
 };
 
 export default MainSkills;
