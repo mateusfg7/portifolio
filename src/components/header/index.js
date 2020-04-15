@@ -25,7 +25,9 @@ const Header = () => (
       </button>
 
       <a className="navbar-brand" href="/">
-        {icon(faFolderMinus)} Meu Portifólio
+        {icon(faFolderMinus)}
+        {' '}
+        Meu Portifólio
       </a>
 
       <section className="collapse navbar-collapse" id="navbarMainToggler">
