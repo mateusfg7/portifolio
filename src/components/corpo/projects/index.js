@@ -14,7 +14,6 @@ export default function Imagem() {
     if (response.status == 403) {
       setRepositories(data);
     } else if (response.status == 200) {
-      console.log(response.status);
       setRepositories([
         data[10],
         data[27],
