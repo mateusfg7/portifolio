@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 
 import "./style.css";
 
-import whatsapp from "./img/whatsapp.png";
 import gmail from "./img/gmail.png";
 
 import api from "../../../services/api";
