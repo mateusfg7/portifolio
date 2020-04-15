@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 
 import "./style.css";
 
-import gmail from "./img/gmail.png";
-
 import api from "../../../services/api";
 
 const MainSkills = () => {
