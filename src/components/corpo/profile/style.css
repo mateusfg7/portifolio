@@ -6,7 +6,7 @@ img.profile {
 img.icon {
   width: 30px;
   height: 30px;
-  margin: 5px 20px auto 20px;
+  margin: 5px 20px auto;
   filter: grayscale(80%);
   transition: 0.5s;
 }
