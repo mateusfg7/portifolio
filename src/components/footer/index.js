@@ -7,7 +7,7 @@ import {
   faLinkedinIn,
   faWhatsappSquare,
 } from "@fortawesome/free-brands-svg-icons";
-import { faCircle, faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 
 import icon from "../../services/fontawesome";
 
