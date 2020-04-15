@@ -2,7 +2,7 @@ import React from "react";
 
 import "./style.css";
 
-import { faCoffee, faFolderMinus } from "@fortawesome/free-solid-svg-icons";
+import { faFolderMinus } from "@fortawesome/free-solid-svg-icons";
 import icon from "../../services/fontawesome";
 
 const Header = () => (
