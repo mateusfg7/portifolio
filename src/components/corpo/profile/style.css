@@ -1,17 +1,17 @@
-img.profile{
-    width: 200px;
-    height: 200px;
+img.profile {
+  width: 200px;
+  height: 200px;
 }
 
-img.icon{
-    width: 30px;
-    height: 30px;
-    margin: 5px 20px auto 20px;
-    filter: grayscale(80%);
-    transition: .5s;
+img.icon {
+  width: 30px;
+  height: 30px;
+  margin: 5px 20px auto 20px;
+  filter: grayscale(80%);
+  transition: 0.5s;
 }
 
 ul.main-section {
-    padding: 5px;
-    background: #fff;
+  padding: 5px;
+  background: #fff;
 }
