@@ -26,10 +26,10 @@ const Footer = () => (
           className="contact-phone"
         >
           <span className="contact">+55 (37) 99844-0073</span>
-          <span className="icon wpp"> 
-{' '}
-{icon(faWhatsappSquare)}
-</span>
+          <span className="icon wpp">
+            {' '}
+            {icon(faWhatsappSquare)}
+          </span>
         </a>
         <br />
         <a
@@ -39,10 +39,10 @@ const Footer = () => (
           className="contact-email"
         >
           <span className="contact">mateusfelipefg77@gmail.com</span>
-          <span className="icon email"> 
-{' '}
-{icon(faEnvelopeSquare)}
-</span>
+          <span className="icon email">
+            {' '}
+            {icon(faEnvelopeSquare)}
+          </span>
         </a>
       </p>
     </div>
