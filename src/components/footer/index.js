@@ -22,6 +22,7 @@ const Footer = () => (
         <a
           href="https://api.whatsapp.com/send?phone=+5537998440073"
           target="_blank"
+          rel="noopener noreferrer"
           className="contact-phone"
         >
           <span className="contact">+55 (37) 99844-0073</span>
@@ -31,6 +32,7 @@ const Footer = () => (
         <a
           href="mailto://mateusfelipefg77@gmail.com"
           target="_blank"
+          rel="noopener noreferrer"
           className="contact-email"
         >
           <span className="contact">mateusfelipefg77@gmail.com</span>
