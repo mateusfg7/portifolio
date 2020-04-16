@@ -8,7 +8,7 @@ import icon from "../../services/fontawesome";
 const Header = () => (
   <header>
     <h1 id="headerTitle">
-      Hi! I'm Mateus Felipe
+      Hi! I&apos;m Mateus Felipe
       <span id="piscar">|</span>
     </h1>
     <nav className="navbar navbar-expand-md navbar-dark bg-dark">
@@ -25,9 +25,7 @@ const Header = () => (
       </button>
 
       <a className="navbar-brand" href="/">
-        {icon(faFolderMinus)}
-        {' '}
-        Meu Portifólio
+        {icon(faFolderMinus)} Meu Portifólio
       </a>
 
       <section className="collapse navbar-collapse" id="navbarMainToggler">
