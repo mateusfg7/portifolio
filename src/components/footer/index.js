@@ -25,10 +25,7 @@ const Footer = () => (
           className="contact-phone"
         >
           <span className="contact">+55 (37) 99844-0073</span>
-          <span className="icon wpp">
-            {' '}
-            {icon(faWhatsappSquare)}
-          </span>
+          <span className="icon wpp"> {icon(faWhatsappSquare)}</span>
         </a>
         <br />
         <a
@@ -37,10 +34,7 @@ const Footer = () => (
           className="contact-email"
         >
           <span className="contact">mateusfelipefg77@gmail.com</span>
-          <span className="icon email">
-            {' '}
-            {icon(faEnvelopeSquare)}
-          </span>
+          <span className="icon email"> {icon(faEnvelopeSquare)}</span>
         </a>
       </p>
     </div>
@@ -80,7 +74,14 @@ const Footer = () => (
           {icon(faLinkedinIn)}
         </a>
       </div>
-      <span className="copy bg-dark">&copy; Mateus Felipe Gonçalves</span>
+      <span className="copy bg-dark">
+        <a
+          href="https://github.com/mateusfg7/portifolio/blob/master/LICENSE"
+          target="_blank"
+        >
+          &copy; Mateus Felipe Gonçalves
+        </a>
+      </span>
     </div>
   </footer>
 );

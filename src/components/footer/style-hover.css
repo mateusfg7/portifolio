@@ -28,3 +28,8 @@ footer a.tt:hover {
 footer a.in:hover {
   color: #007bb6;
 }
+
+.copy a:hover {
+  text-decoration: underline;
+  color: #e7e7e76b;
+}

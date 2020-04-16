@@ -26,7 +26,6 @@ footer a {
   font-size: 14pt;
 }
 
-.copy {
-  margin-top: 7px;
-  color: #e7e7e736;
+.copy a {
+  color: #e7e7e750;
 }
