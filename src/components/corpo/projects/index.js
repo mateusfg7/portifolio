@@ -7,7 +7,7 @@ export default function Imagem() {
 
   useEffect(async () => {
     const response = await fetch(
-      "https://api.github.com/users/mateusfg7/repos"
+      "https://api.github.com/users/mateusfg7/repos",
     );
     const data = await response.json();
 
