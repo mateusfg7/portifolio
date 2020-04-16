@@ -33,7 +33,7 @@ export default function Imagem() {
           <h3>{repo.name}</h3>
           <p>{repo.description}</p>
           <p>{repo.language}</p>
-          <a href={repo.svn_url} target="_blank">
+          <a href={repo.svn_url} target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </div>

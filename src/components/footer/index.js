@@ -45,6 +45,7 @@ const Footer = () => (
         <a
           href="https://www.facebook.com/mateusfelipefg7"
           target="_blank"
+          rel="noopener noreferrer"
           className="face icon"
         >
           {icon(faFacebookF)}
@@ -53,6 +54,7 @@ const Footer = () => (
         <a
           href="https://twitter.com/mateusfg77"
           target="_blank"
+          rel="noopener noreferrer"
           className="tt icon"
         >
           {icon(faTwitter)}
@@ -61,6 +63,7 @@ const Footer = () => (
         <a
           href="https://www.instagram.com/mateusfg7/"
           target="_blank"
+          rel="noopener noreferrer"
           className="insta icon"
         >
           {icon(faInstagram)}
@@ -69,6 +72,7 @@ const Footer = () => (
         <a
           href="https://www.linkedin.com/in/mateus-felipe-a90030152/"
           target="_blank"
+          rel="noopener noreferrer"
           className="in icon"
         >
           {icon(faLinkedinIn)}
@@ -78,6 +82,7 @@ const Footer = () => (
         <a
           href="https://github.com/mateusfg7/portifolio/blob/master/LICENSE"
           target="_blank"
+          rel="noopener noreferrer"
         >
           &copy; Mateus Felipe Gonçalves
         </a>
