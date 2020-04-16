@@ -11,9 +11,9 @@ export default function Imagem() {
     );
     const data = await response.json();
 
-    if (response.status == 403) {
+    if (response.status === 403) {
       setRepositories(data);
-    } else if (response.status == 200) {
+    } else if (response.status === 200) {
       setRepositories([
         data[10],
         data[27],
