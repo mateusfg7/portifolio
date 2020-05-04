@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+
 
 import './style.css';
+import './technologies.css';
 
 export default function Imagem() {
   const projects = [
@@ -8,9 +10,15 @@ export default function Imagem() {
       name: 'Box-CSS-Preview',
       description: 'A simple web page to see the preview of border css styles and get code',
       url: 'https://github.com/mateusfg7/Box-CSS-Preview',
-      technologies: ['JavaScript', 'ReactJS', 'CSS', 'Boostrap', 'HTML']
-    }
-  ]
+      technologies: ['JavaScript', 'ReactJS', 'CSS3', 'Boostrap', 'HTML'],
+    },
+    {
+      name: 'textAnalysis',
+      description: 'Programa em python que realisa análise em texto usando recursos da API Algorithmia.',
+      url: 'https://github.com/mateusfg7/textAnalysis',
+      technologies: ['Python3', 'Algorithmia', 'GoogleTrans'],
+    },
+  ];
 
 
   return (
@@ -23,7 +31,7 @@ export default function Imagem() {
             <p>{repositoryInfo.description}</p>
             <p>
               {
-                repositoryInfo.technologies.map(technology => (
+                repositoryInfo.technologies.map((technology) => (
                   <span className={technology}>{technology}</span>
                 ))
               }
