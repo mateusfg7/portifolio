@@ -1,0 +1,24 @@
+.project p span {
+  margin: 0;
+  margin-right: 10px;
+
+  padding: 2px;
+}
+
+span.JavaScript {
+  border: 1px solid #000;
+  background: yellow;
+  color: #000
+}
+
+span.ReactJS {
+  border: 1px solid #000;
+  background: #61DAFB;
+  color: #000;
+}
+
+span.CSS3 {
+  border: 1px solid #fff;
+  background: #254BDC;
+  color: #fff;
+}
