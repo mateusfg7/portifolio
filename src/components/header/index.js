@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import "./style.css";
+import './style.css';
 
-import { faFolderMinus } from "@fortawesome/free-solid-svg-icons";
-import icon from "../../services/fontawesome";
+import { faFolderMinus } from '@fortawesome/free-solid-svg-icons';
+import icon from '../../services/fontawesome';
 
 const Header = () => (
   <header>
