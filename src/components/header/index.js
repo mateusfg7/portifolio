@@ -11,7 +11,7 @@ const Header = () => (
       Hi! I&apos;m Mateus Felipe
       <span id="piscar">|</span>
     </h1>
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-md ">
       <button
         className="navbar-toggler"
         type="button"

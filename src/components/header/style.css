@@ -21,3 +21,14 @@
 #piscar {
   animation: piscar 1s 0s infinite;
 }
+
+header nav {
+  background: rgb(39, 39, 39);
+}
+header nav a {
+  color: #fff;
+}
+header nav a:hover {
+  color: #fff;
+  filter: opacity(.6);
+}
