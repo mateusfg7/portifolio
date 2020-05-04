@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import "./style.css";
+import './style.css';
 
 export default function Imagem() {
   const [repositories, setRepositories] = useState([]);
 
   useEffect(async () => {
     const response = await fetch(
-      "https://api.github.com/users/mateusfg7/repos",
+      'https://api.github.com/users/mateusfg7/repos',
     );
     const data = await response.json();
 
