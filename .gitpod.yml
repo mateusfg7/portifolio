@@ -8,6 +8,7 @@ tasks:
 ports:
   - port: 3000
     onOpen: open-browser
+
 vscode:
   extensions:
     - rocketseat.RocketseatReactJS@2.2.0:CMZI2JF+9mcg15CoJkRPOQ==
