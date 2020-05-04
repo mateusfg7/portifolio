@@ -2,10 +2,17 @@ footer {
   position: relative;
   bottom: 0;
   padding: 10px;
+
+  background: var(--dark-background)
 }
 
 .info_box {
   padding: 10px;
+}
+
+.info_box .social {
+  display: flex;
+  align-items: center;
 }
 
 footer h1 {
@@ -20,7 +27,7 @@ footer a {
   color: #cccccc;
 }
 .icon {
-  font-size: 16pt;
+  font-size: 20pt;
 }
 .contact {
   font-size: 14pt;

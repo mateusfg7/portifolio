@@ -1,6 +1,7 @@
 import React from "react";
 /* import './reset.css' */
 import "./App.css";
+import "./variables.css";
 
 import Header from "./components/header";
 import Corpo from "./components/corpo";

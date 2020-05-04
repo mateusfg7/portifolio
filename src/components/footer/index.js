@@ -1,10 +1,10 @@
 import React from "react";
 
 import {
-  faFacebookF,
-  faTwitter,
-  faInstagram,
-  faLinkedinIn,
+  faFacebookSquare,
+  faTwitterSquare,
+  faInstagramSquare,
+  faLinkedin,
   faWhatsappSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
@@ -15,7 +15,7 @@ import "./style.css";
 import "./style-hover.css";
 
 const Footer = () => (
-  <footer className="container-fluid pt-3 footer bg-dark text-light text-center">
+  <footer className="container-fluid pt-3 footer text-light text-center">
     <div className="info_box">
       <h1 id="contato">Contato</h1>
       <p>
@@ -26,10 +26,6 @@ const Footer = () => (
           className="contact-phone"
         >
           <span className="contact">+55 (37) 99844-0073</span>
-          <span className="icon wpp">
-            {' '}
-            {icon(faWhatsappSquare)}
-          </span>
         </a>
         <br />
         <a
@@ -39,24 +35,20 @@ const Footer = () => (
           className="contact-email"
         >
           <span className="contact">mateusfelipefg77@gmail.com</span>
-          <span className="icon email">
-            {' '}
-            {icon(faEnvelopeSquare)}
-          </span>
         </a>
       </p>
     </div>
 
     <div className="info_box">
       <h2>Redes Sociais</h2>
-      <div className="container col-6 col-md-4 d-flex justify-content-around">
+      <div className="container col-6 col-md-4 d-flex justify-content-around social">
         <a
           href="https://www.facebook.com/mateusfelipefg7"
           target="_blank"
           rel="noopener noreferrer"
           className="face icon"
         >
-          {icon(faFacebookF)}
+          {icon(faFacebookSquare)}
         </a>
         •
         <a
@@ -65,7 +57,7 @@ const Footer = () => (
           rel="noopener noreferrer"
           className="tt icon"
         >
-          {icon(faTwitter)}
+          {icon(faTwitterSquare)}
         </a>
         •
         <a
@@ -74,7 +66,7 @@ const Footer = () => (
           rel="noopener noreferrer"
           className="insta icon"
         >
-          {icon(faInstagram)}
+          {icon(faInstagramSquare)}
         </a>
         •
         <a
@@ -83,10 +75,10 @@ const Footer = () => (
           rel="noopener noreferrer"
           className="in icon"
         >
-          {icon(faLinkedinIn)}
+          {icon(faLinkedin)}
         </a>
       </div>
-      <span className="copy bg-dark">
+      <span className="copy">
         <a
           href="https://github.com/mateusfg7/portifolio/blob/master/LICENSE"
           target="_blank"

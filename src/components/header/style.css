@@ -23,7 +23,7 @@
 }
 
 header nav {
-  background: rgb(39, 39, 39);
+  background: var(--dark-background);
 }
 header nav a {
   color: #fff;
