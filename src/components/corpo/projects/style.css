@@ -1,18 +1,19 @@
 div.main {
-  margin-top: 50px;
+  background: var(--dark-background);
+  margin: 100px auto;
+  padding: 5px;
   border-radius: 3px;
 }
 
 div.project {
-  margin-top: 20px;
-  background: var(--dark-background);
   padding: 20px;
+  margin-top: 10px;
   border-radius: 3px;
   transition: .3s;
 }
 
 div.project:hover {
- box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
 }
 
 div.project * {
@@ -22,27 +23,33 @@ div.project * {
 div.project a {
   text-decoration: none;
   color: rgba(255, 255, 255);
+}
+
+div.project a button {
+  color: rgba(255, 255, 255);
   border-radius: 5px;
   padding: 5px;
+  margin: 1px;
   transition: 0.2s;
 }
-div.project a.web-page-button {
+div.project a button.web-page-button {
   background: rgba(0, 0, 0, 0.363);
   border: 2px solid rgba(0, 0, 0, 0);
 }
-div.project a.web-page-button:hover {
+div.project a button.web-page-button:hover {
   background: rgba(0, 0, 0, 0.685);
 }
 
-div.project a.source-code-button {
+div.project a button.source-code-button {
+  background: rgba(0, 0, 0, 0);
   border: 2px solid rgba(0, 0, 0, 0.363);
 }
-div.project a.source-code-button:hover {
+div.project a button.source-code-button:hover {
   background: rgba(0, 0, 0, 0.685);
 }
 
 @media(max-width: 380px) {
-  div.project a {
+  div.project a button {
     padding: 10px;
   }
 }
