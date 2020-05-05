@@ -4,8 +4,11 @@
   "editor.formatOnSave": true,
   "editor.wordWrap": "on",
   "editor.formatOnSaveTimeout": 750,
+  "editor.autoSave": "on",
+  "editor.autoIndent": "full",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Monokai",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "setup.dontask": true,
+  "eslint.run": "onSave",
 }
