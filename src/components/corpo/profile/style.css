@@ -15,3 +15,17 @@ ul.main-section {
   padding: 5px;
   background: #fff;
 }
+
+li.flex-responsive {
+  display: flex;
+  border: 1px solid red;
+}
+
+@media(max-width: 380px) {
+  li.flex-responsive {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

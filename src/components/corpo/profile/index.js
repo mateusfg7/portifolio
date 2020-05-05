@@ -14,7 +14,7 @@ const MainSkills = () => {
 
   return (
     <ul className="list-unstyled main-section">
-      <li className="media">
+      <li className="flex-responsive">
         <img src={profile.avatar} alt="foto pessoal" className="mr-3 profile" />
         <div className="media-body">
           <h5 className="mt-0 mb-1" id="skills">
