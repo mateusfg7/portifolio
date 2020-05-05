@@ -18,7 +18,7 @@ const MainSkills = () => {
         <img src={profile.avatar} alt="foto pessoal" className="mr-3 profile" />
         <div className="media-body">
           <h5 className="mt-0 mb-1" id="skills">
-            My Skills
+            Sobre
           </h5>
           eu sou eu, sendo eu, porque se eu não for eu quem sera eu, nesse caso
           eu sou obrigado a ser eu! (texto teste)

@@ -33,7 +33,7 @@ const Header = () => (
       <section className="collapse navbar-collapse" id="navbarMainToggler">
         <div className="navbar-nav">
           <a className="nav-item nav-link" href="#skills">
-            Skills
+            Sobre
           </a>
           <a className="nav-item nav-link" href="#formacao">
             Formação
