@@ -8,15 +8,14 @@ export default function Imagem() {
   const projects = [
     {
       name: 'Box-CSS-Preview',
-      description: 'A simple web page to see the preview of border css styles and get code',
+      description: 'Uma ferramenta feita com React JS para obter um preview em tempo real de bordas de um componente HTML e obter o código CSS respectivo a estilização escolhida.',
       url: 'https://github.com/mateusfg7/Box-CSS-Preview',
-      technologies: ['JavaScript', 'ReactJS', 'CSS3', 'Boostrap', 'HTML'],
     },
     {
       name: 'textAnalysis',
-      description: 'Programa em python que realisa análise em texto usando recursos da API Algorithmia.',
+      description: 'Programa feito em Python3 que realiza análise de texto usando recursos da API Algorithmia, como resumir textos, obter tags de acordo com o assunto do texto, obter frequencia de palavras, êtc.',
       url: 'https://github.com/mateusfg7/textAnalysis',
-      technologies: ['Python3', 'Algorithmia', 'GoogleTrans'],
+      technologies: ['Python3,', 'Algorithmia,', 'GoogleTrans'],
     },
   ];
 
@@ -29,15 +28,8 @@ export default function Imagem() {
           <div className="project">
             <h3>{repositoryInfo.name}</h3>
             <p>{repositoryInfo.description}</p>
-            <p>
-              {
-                repositoryInfo.technologies.map((technology) => (
-                  <span className={technology}>{technology}</span>
-                ))
-              }
-            </p>
             <a href={repositoryInfo.url} target="_blank" rel="noopener noreferrer">
-              GitHub
+              Código Fonte
             </a>
           </div>
         ))
