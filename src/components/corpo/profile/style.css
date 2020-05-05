@@ -18,7 +18,9 @@ ul.main-section {
 
 li.flex-responsive {
   display: flex;
-  border: 1px solid red;
+  padding: 5px;
+  background: var(--dark-background);
+  color: #fff;
 }
 
 @media(max-width: 380px) {
