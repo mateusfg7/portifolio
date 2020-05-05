@@ -1,0 +1,11 @@
+{
+  "editor.fastScrollSensitivity": 10,
+  "editor.scrollBeyondLastColumn": 10,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.formatOnSaveTimeout": 750,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Monokai",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "setup.dontask": true,
+}
