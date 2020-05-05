@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import "./style.css";
+import './style.css';
 
-import api from "../../../services/api";
+import api from '../../../services/api';
 
 const MainSkills = () => {
   const [profile, setProfile] = useState([]);
 
   useEffect(async () => {
-    const response = await api.get("/users/mateusfg7");
+    const response = await api.get('/users/mateusfg7');
     setProfile({ avatar: response.data.avatar_url });
   }, []);
 
