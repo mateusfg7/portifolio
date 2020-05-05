@@ -7,7 +7,7 @@ import Formacao from './estudos/formacao';
 import Projects from './projects';
 
 const Corpo = () => (
-  <section className="conteiner p-2">
+  <section className="conteiner p-2 main-section">
     <MainSkills />
     <Formacao />
     <Projects />

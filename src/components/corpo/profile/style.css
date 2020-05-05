@@ -11,11 +11,6 @@ img.icon {
   transition: 0.5s;
 }
 
-ul.main-section {
-  padding: 5px;
-  background: #fff;
-}
-
 li.flex-responsive {
   display: flex;
   padding: 5px;
