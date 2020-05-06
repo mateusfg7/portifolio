@@ -1,12 +1,12 @@
 import React from 'react';
-/* import './reset.css' */
+import './reset.css';
 import './App.css';
 import './variables.css';
 
 
 export default function App() {
   return (
-    <div className="container-fluid p-0">
+    <div>
       Test
     </div>
   );
