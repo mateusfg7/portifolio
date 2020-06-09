@@ -22,7 +22,10 @@
     "wix.vscode-import-cost",
     "FallenMax.mithril-emmet",
     "ricardo-emerson.react-development-extensions-pack",
-    "jundat95.react-native-snippet"
+    "jundat95.react-native-snippet",
+    "EQuimper.react-native-react-redux",
+    "rocketseat.rocketseatreactjs",
+    "jpoissonnier.vscode-styled-components"
   ],
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
   "unwantedRecommendations": []
