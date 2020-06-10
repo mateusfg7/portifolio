@@ -8,7 +8,7 @@ export default function About() {
 
   return (
     <div>
-      <h1>About</h1>
+      <h1 id="about">About</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit
         fringilla nisi sed tempor. In lacinia auctor iaculis. Sed vel porta

@@ -8,7 +8,7 @@ export default function Projects() {
 
   return (
     <div>
-      <h1>Projects</h1>
+      <h1 id="projects">Projects</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit
         fringilla nisi sed tempor. In lacinia auctor iaculis. Sed vel porta

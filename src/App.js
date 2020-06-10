@@ -21,12 +21,16 @@ export default function App() {
         <nav className="menu">
           <ul>
             <li>
-              <a href="/about" className="button" id="about-button">
+              <a href="/about#about" className="button" id="about-button">
                 About
               </a>
             </li>
             <li>
-              <a href="/projects" className="button" id="projects-button">
+              <a
+                href="/projects#projects"
+                className="button"
+                id="projects-button"
+              >
                 Projects
               </a>
             </li>
