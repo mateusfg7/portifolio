@@ -10,6 +10,19 @@ body {
 }
 
 main#Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 30px;
+
+  width: 100%;
+  height: 100vh;
+
   background: black;
   color: white;
+}
+
+div.pages {
+  margin-top: 20px;
 }
