@@ -32,7 +32,7 @@ section div.wave {
 }
 
 section div.wave.wave1 {
-  animation: animate 30s linear infinite;
+  animation: animate 40s linear infinite;
   animation-delay: 0s;
   z-index: 1000;
   background: url("../img/black-wave.svg");
@@ -40,7 +40,7 @@ section div.wave.wave1 {
   bottom: 0;
 }
 section div.wave.wave2 {
-  animation: animate2 15s linear infinite;
+  animation: animate2 30s linear infinite;
   animation-delay: -5s;
   z-index: 999;
   background: url("../img/black-wave.svg");
@@ -48,7 +48,7 @@ section div.wave.wave2 {
   bottom: 10px;
 }
 section div.wave.wave3 {
-  animation: animate 30s linear infinite;
+  animation: animate 20s linear infinite;
   animation-delay: -2s;
   z-index: 998;
   background: url("../img/black-wave.svg");
@@ -56,7 +56,7 @@ section div.wave.wave3 {
   bottom: 15px;
 }
 section div.wave.wave4 {
-  animation: animate2 5s linear infinite;
+  animation: animate2 20s linear infinite;
   animation-delay: 0s;
   z-index: 997;
   background: url("../img/black-wave.svg");
