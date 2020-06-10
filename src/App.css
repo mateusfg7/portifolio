@@ -4,9 +4,10 @@
 }
 
 body {
-  background-color: #0d0f11;
+  /* background-color: #0d0f11; */
+  background-color: white;
 
-  color: white;
+  color: black;
 }
 
 main#Main {
