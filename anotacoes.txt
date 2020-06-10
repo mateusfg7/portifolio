@@ -5,3 +5,9 @@ seções
 - formacao
 - projetos
 - contato
+
+main colors
+#fc2d2d -> red
+#e7fc2d -> yellow
+#2dfc4c -> green
+#2d5dfc -> blue
