@@ -19,7 +19,7 @@ nav.menu ul li a.button {
 
   padding: 5px;
 
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
   text-transform: uppercase;
 
@@ -29,9 +29,9 @@ nav.menu ul li a.button {
 
   transition: 0.3s;
 }
-nav.menu ul li a.button:hover {
-  border-bottom-color: white;
-  color: black;
+nav.menu ul li a.button.selected {
+  border-color: rgb(255, 255, 255);
+  color: white;
 }
 
 nav.menu ul li a.button::before {
@@ -50,10 +50,11 @@ nav.menu ul li a.button::before {
   z-index: -1;
 }
 
-nav.menu ul li a.button:hover::before {
-  height: 100%;
+nav.menu ul li a.button:hover {
+  border-bottom-color: white;
+  color: black;
 }
 
-nav.menu ul li a.button.selected {
-  border-color: rgb(255, 255, 255);
+nav.menu ul li a.button:hover::before {
+  height: 100%;
 }
