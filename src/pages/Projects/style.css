@@ -1,0 +1,44 @@
+h2#projects {
+  margin-bottom: 40px;
+}
+
+div.projects a.project-link {
+  display: block;
+
+  max-width: 1100px;
+
+  text-decoration: none;
+  color: white;
+
+  /* border: 1px red solid; */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+div.projects article.project {
+  margin-top: 20px;
+}
+
+div.projects article.project span.technologies {
+  letter-spacing: 5px;
+}
+
+div.projects article.project span.technologies .icon {
+  margin-right: 20px;
+  font-size: 19px;
+}
+
+div.projects article.project span.technologies .react {
+  color: #61dafb;
+}
+div.projects article.project span.technologies .css {
+  color: #156eb3;
+}
+div.projects article.project span.technologies .html {
+  color: #f0602a;
+}
+div.projects article.project span.technologies .node {
+  color: #8dc03e;
+}
+div.projects article.project span.technologies .js {
+  color: #f1d91d;
+}

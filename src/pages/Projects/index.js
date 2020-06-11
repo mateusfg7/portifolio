@@ -1,4 +1,15 @@
 import React, { useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faReact,
+  faCss3,
+  faHtml5,
+  faJs,
+  faNodeJs,
+} from "@fortawesome/free-brands-svg-icons";
+import { faBorderStyle } from "@fortawesome/free-solid-svg-icons";
+
+import "./style.css";
 
 export default function Projects() {
   useEffect(() => {
@@ -8,34 +19,48 @@ export default function Projects() {
 
   return (
     <div>
-      <h2 id="projects">Meus principais projetos</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit
-        fringilla nisi sed tempor. In lacinia auctor iaculis. Sed vel porta
-        metus. In ut leo nunc. Vivamus et sollicitudin sem, at tristique quam.
-        Proin vitae ante nec tellus mattis dictum sit amet vel erat. In hac
-        habitasse platea dictumst. Pellentesque dictum mauris eget luctus
-        vehicula. Vivamus tincidunt nunc rhoncus, fringilla nisi vitae, finibus
-        nibh. Mauris non libero ut felis rutrum dapibus. Fusce egestas aliquet
-        leo, sit amet laoreet tortor euismod sed.
-      </p>
-      <p>
-        Sed a felis id diam elementum ultricies. Suspendisse est turpis,
-        placerat non accumsan convallis, imperdiet eget felis. Suspendisse
-        cursus augue magna, vitae finibus eros pretium ac. Sed justo enim,
-        vulputate ut egestas nec, aliquet sit amet felis. Mauris lacus diam,
-        fermentum vel eros quis, laoreet suscipit purus. Sed pharetra ultrices
-        massa. Sed id porta sapien. Aenean blandit rhoncus rhoncus.
-      </p>
-      <p>
-        Aliquam velit leo, imperdiet at magna eu, pretium vulputate odio.
-        Phasellus mi purus, ultricies in dictum non, elementum eu tortor.
-        Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent
-        per conubia nostra, per inceptos himenaeos. Sed vitae eros rhoncus quam
-        iaculis volutpat ut vitae lorem. Pellentesque non rutrum augue.
-        Vestibulum volutpat sapien a sem fermentum pellentesque. Sed sodales
-        vitae.
-      </p>
+      <h2 id="projects">Meus projetos</h2>
+      <div className="projects">
+        <a
+          href="/projects/box-css-preview#box-css-preview"
+          className="project-link"
+        >
+          <article className="project">
+            <h4>Box-CSS-Preview</h4>
+            <p>
+              Box-CSS-Preview é uma página feita em React que você pode editar
+              as bordas de um elemento HTML e depois pegar os códigos CSS
+              correspondente ao estilo feito.
+            </p>
+            <p>
+              <span className="technologies">
+                <FontAwesomeIcon className="icon react" icon={faReact} />
+                <FontAwesomeIcon className="icon js" icon={faJs} />
+                <FontAwesomeIcon className="icon html" icon={faHtml5} />
+                <FontAwesomeIcon className="icon css" icon={faCss3} />
+              </span>
+            </p>
+          </article>
+        </a>
+
+        <a href="/projects/ecoleta#ecoleta" className="project-link">
+          <article className="project">
+            <h4>Ecoleta</h4>
+            <p>
+              Aplicação web que ajuda a registrar e encontrar pontos de coleta
+              de materiais recicláveis.
+            </p>
+            <p>
+              <span className="technologies">
+                <FontAwesomeIcon className="icon node" icon={faNodeJs} />
+                <FontAwesomeIcon className="icon js" icon={faJs} />
+                <FontAwesomeIcon className="icon html" icon={faHtml5} />
+                <FontAwesomeIcon className="icon css" icon={faCss3} />
+              </span>
+            </p>
+          </article>
+        </a>
+      </div>
     </div>
   );
 }
