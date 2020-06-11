@@ -4,7 +4,7 @@ nav.menu {
   justify-content: space-between;
   align-items: center;
 
-  margin-top: 50px;
+  margin: 50px auto;
 }
 
 nav.menu ul li {
