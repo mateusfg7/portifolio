@@ -1,7 +1,6 @@
 import React from "react";
 
 import Home from "./components/Home";
-import Menu from "./components/Menu";
 import Routes from "./Routes";
 
 import "./App.css";
@@ -18,7 +17,6 @@ export default function App() {
         <div className="wave wave4" />
       </section>
       <main id="Main">
-        <Menu />
         <div className="pages">
           <Routes />
         </div>
