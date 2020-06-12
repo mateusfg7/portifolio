@@ -25,5 +25,5 @@ main#Main {
 }
 
 div.pages {
-  margin-top: 20px;
+  margin: 20px auto auto auto;
 }
