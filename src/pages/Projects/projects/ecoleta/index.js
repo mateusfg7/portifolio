@@ -1,5 +1,12 @@
 import React from "react";
 
+import Return from "../../../../components/Return";
+
 export default function Ecoleta() {
-  return <h1 id="ecoleta">Ecoleta</h1>;
+  return (
+    <div>
+      <Return />
+      <h1 id="ecoleta">Ecoleta</h1>
+    </div>
+  );
 }
