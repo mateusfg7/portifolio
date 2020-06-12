@@ -1,13 +1,10 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faReact,
-  faCss3,
-  faHtml5,
-  faJs,
-  faNodeJs,
-} from "@fortawesome/free-brands-svg-icons";
+import { FaReact } from "react-icons/fa";
+import { DiJavascript1 } from "react-icons/di";
+import { AiOutlineHtml5 } from "react-icons/ai";
+import { RiCss3Line } from "react-icons/ri";
+import { IoLogoNodejs } from "react-icons/io";
 
 import Menu from "../../components/Menu";
 
@@ -37,10 +34,10 @@ export default function Projects() {
             </p>
             <p>
               <span className="technologies">
-                <FontAwesomeIcon className="icon react" icon={faReact} />
-                <FontAwesomeIcon className="icon js" icon={faJs} />
-                <FontAwesomeIcon className="icon html" icon={faHtml5} />
-                <FontAwesomeIcon className="icon css" icon={faCss3} />
+                <FaReact className="icon react" />
+                <DiJavascript1 className="icon js" />
+                <AiOutlineHtml5 className="icon html" />
+                <RiCss3Line className="icon css" />
               </span>
             </p>
           </article>
@@ -55,10 +52,10 @@ export default function Projects() {
             </p>
             <p>
               <span className="technologies">
-                <FontAwesomeIcon className="icon node" icon={faNodeJs} />
-                <FontAwesomeIcon className="icon js" icon={faJs} />
-                <FontAwesomeIcon className="icon html" icon={faHtml5} />
-                <FontAwesomeIcon className="icon css" icon={faCss3} />
+                <IoLogoNodejs className="icon node" />
+                <DiJavascript1 className="icon js" />
+                <AiOutlineHtml5 className="icon html" />
+                <RiCss3Line className="icon css" />
               </span>
             </p>
           </article>
