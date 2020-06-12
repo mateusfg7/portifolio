@@ -23,8 +23,8 @@ div.projects article.project span.technologies {
 }
 
 div.projects article.project span.technologies .icon {
-  margin-right: 20px;
-  font-size: 19px;
+  margin-right: 15px;
+  font-size: 22px;
 }
 
 div.projects article.project span.technologies .react {

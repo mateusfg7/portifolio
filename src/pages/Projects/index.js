@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { FaReact } from "react-icons/fa";
-import { DiJavascript1 } from "react-icons/di";
+import { DiJavascript1, DiReact } from "react-icons/di";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { RiCss3Line } from "react-icons/ri";
 import { IoLogoNodejs } from "react-icons/io";
@@ -34,7 +33,7 @@ export default function Projects() {
             </p>
             <p>
               <span className="technologies">
-                <FaReact className="icon react" />
+                <DiReact className="icon react" />
                 <DiJavascript1 className="icon js" />
                 <AiOutlineHtml5 className="icon html" />
                 <RiCss3Line className="icon css" />
