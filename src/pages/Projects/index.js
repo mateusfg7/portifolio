@@ -7,7 +7,8 @@ import {
   faJs,
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
-import { faBorderStyle } from "@fortawesome/free-solid-svg-icons";
+
+import Menu from "../../components/Menu";
 
 import "./style.css";
 
@@ -19,6 +20,7 @@ export default function Projects() {
 
   return (
     <div>
+      <Menu />
       <h2 id="projects">Meus projetos</h2>
       <div className="projects">
         <a
