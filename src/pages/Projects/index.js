@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faReact,
@@ -23,8 +24,8 @@ export default function Projects() {
       <Menu />
       <h2 id="projects">Meus projetos</h2>
       <div className="projects">
-        <a
-          href="/projects/box-css-preview#box-css-preview"
+        <Link
+          to="/projects/box-css-preview#box-css-preview"
           className="project-link"
         >
           <article className="project">
@@ -43,9 +44,9 @@ export default function Projects() {
               </span>
             </p>
           </article>
-        </a>
+        </Link>
 
-        <a href="/projects/ecoleta#ecoleta" className="project-link">
+        <Link to="/projects/ecoleta#ecoleta" className="project-link">
           <article className="project">
             <h4>Ecoleta</h4>
             <p>
@@ -61,7 +62,7 @@ export default function Projects() {
               </span>
             </p>
           </article>
-        </a>
+        </Link>
       </div>
     </div>
   );
