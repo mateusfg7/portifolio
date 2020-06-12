@@ -1,0 +1,25 @@
+nav.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  margin: 50px auto;
+}
+
+nav.menu .return-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+nav.menu .return-button span.arrow-back {
+  display: flex;
+  font-size: 20px;
+}
