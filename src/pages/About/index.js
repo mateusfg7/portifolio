@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 
+import Menu from "../../components/Menu";
+
 export default function About() {
   useEffect(() => {
     const aboutButton = document.getElementById("about-button");
@@ -8,7 +10,8 @@ export default function About() {
 
   return (
     <div>
-      <h1 id="about">About</h1>
+      <Menu />
+      <h2 id="about">About</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit
         fringilla nisi sed tempor. In lacinia auctor iaculis. Sed vel porta
