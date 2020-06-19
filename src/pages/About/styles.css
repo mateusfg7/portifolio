@@ -1,0 +1,15 @@
+h2#about {
+  margin-bottom: 40px;
+}
+
+div.description {
+  display: block;
+
+  max-width: 1100px;
+
+  text-decoration: none;
+  color: black;
+
+  /* border: 1px red solid; */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
