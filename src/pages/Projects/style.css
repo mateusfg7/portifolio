@@ -38,7 +38,7 @@ div.projects .project-link span.technologies .icon {
 }
 
 div.projects .project-link.box-css-preview:hover {
-  background-color: #dddddd;
+  background-color: #e6e6e6;
   border-left-color: #171717;
 }
 div.projects .project-link.box-css-preview:active {
@@ -55,6 +55,16 @@ div.projects .project-link.ecoleta:active {
   background-color: #f0f0f5;
   border-left-color: #34cb79;
   color: #322153;
+}
+div.projects .project-link.be-the-hero:hover {
+  background-color: #f0f0f5;
+  border-left-color: #de2041;
+  color: #1f2127;
+}
+div.projects .project-link.be-the-hero:active {
+  background-color: #f0f0f5;
+  border-left-color: #de2041;
+  color: #1f2127;
 }
 
 div.projects .project-link:hover span.technologies .react {
@@ -82,13 +92,19 @@ div.projects .project-link:hover span.technologies .js {
     border: 2px solid black;
   }
   div.projects .project-link.box-css-preview {
-    background-color: #dddddd;
+    background-color: #e6e6e6;
     border-color: #171717;
+    color: #171717;
   }
   div.projects .project-link.ecoleta {
     background-color: #f0f0f5;
     border-color: #34cb79;
     color: #322153;
+  }
+  div.projects .project-link.be-the-hero {
+    background-color: #f0f0f5;
+    border-color: #de2041;
+    color: #1f2127;
   }
 
   div.projects .project-link span.technologies .react {
