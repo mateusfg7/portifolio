@@ -22,7 +22,7 @@ export default function Projects() {
       <div className="projects">
         <Link
           to="/projects/box-css-preview#box-css-preview"
-          className="project-link"
+          className="project-link box-css-preview"
         >
           <article className="project">
             <h4>Box-CSS-Preview</h4>
@@ -31,32 +31,28 @@ export default function Projects() {
               as bordas de um elemento HTML e depois pegar os códigos CSS
               correspondente ao estilo feito.
             </p>
-            <p>
-              <span className="technologies">
-                <DiReact className="icon react" />
-                <DiJavascript1 className="icon js" />
-                <AiOutlineHtml5 className="icon html" />
-                <RiCss3Line className="icon css" />
-              </span>
-            </p>
+            <span className="technologies">
+              <DiReact className="icon react" />
+              <DiJavascript1 className="icon js" />
+              <AiOutlineHtml5 className="icon html" />
+              <RiCss3Line className="icon css" />
+            </span>
           </article>
         </Link>
 
-        <Link to="/projects/ecoleta#ecoleta" className="project-link">
+        <Link to="/projects/ecoleta#ecoleta" className="project-link ecoleta">
           <article className="project">
             <h4>Ecoleta</h4>
             <p>
               Aplicação web que ajuda a registrar e encontrar pontos de coleta
               de materiais recicláveis.
             </p>
-            <p>
-              <span className="technologies">
-                <IoLogoNodejs className="icon node" />
-                <DiJavascript1 className="icon js" />
-                <AiOutlineHtml5 className="icon html" />
-                <RiCss3Line className="icon css" />
-              </span>
-            </p>
+            <span className="technologies">
+              <IoLogoNodejs className="icon node" />
+              <DiJavascript1 className="icon js" />
+              <AiOutlineHtml5 className="icon html" />
+              <RiCss3Line className="icon css" />
+            </span>
           </article>
         </Link>
       </div>
