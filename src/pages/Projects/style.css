@@ -11,7 +11,9 @@ div.projects {
 }
 
 div.projects .project-link {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   padding: 5px;
 
@@ -25,8 +27,8 @@ div.projects .project-link {
 
   transition: 0.2s;
 }
-div.projects .project-link:hover {
-  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.253); */
+
+div.projects .project-link span.technologies {
 }
 
 div.projects .project-link span.technologies .icon {
@@ -36,9 +38,8 @@ div.projects .project-link span.technologies .icon {
 }
 
 div.projects .project-link.box-css-preview:hover {
-  background-color: #616161;
+  background-color: #dddddd;
   border-left-color: #171717;
-  color: white;
 }
 div.projects .project-link.box-css-preview:active {
   background-color: #616161;
@@ -70,4 +71,39 @@ div.projects .project-link:hover span.technologies .node {
 }
 div.projects .project-link:hover span.technologies .js {
   color: #f1d91d;
+}
+
+@media (max-width: 530px) {
+  div.projects {
+    grid-template-columns: 1fr;
+  }
+  div.projects .project-link {
+    padding: 10px;
+    border: 2px solid black;
+  }
+  div.projects .project-link.box-css-preview {
+    background-color: #dddddd;
+    border-color: #171717;
+  }
+  div.projects .project-link.ecoleta {
+    background-color: #f0f0f5;
+    border-color: #34cb79;
+    color: #322153;
+  }
+
+  div.projects .project-link span.technologies .react {
+    color: #61dafb;
+  }
+  div.projects .project-link span.technologies .css {
+    color: #156eb3;
+  }
+  div.projects .project-link span.technologies .html {
+    color: #f0602a;
+  }
+  div.projects .project-link span.technologies .node {
+    color: #8dc03e;
+  }
+  div.projects .project-link span.technologies .js {
+    color: #f1d91d;
+  }
 }

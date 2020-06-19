@@ -24,36 +24,33 @@ export default function Projects() {
           to="/projects/box-css-preview#box-css-preview"
           className="project-link box-css-preview"
         >
-          <article className="project">
-            <h4>Box-CSS-Preview</h4>
-            <p>
-              Box-CSS-Preview é uma página feita em React que você pode editar
-              as bordas de um elemento HTML e depois pegar os códigos CSS
-              correspondente ao estilo feito.
-            </p>
-            <span className="technologies">
-              <DiReact className="icon react" />
-              <DiJavascript1 className="icon js" />
-              <AiOutlineHtml5 className="icon html" />
-              <RiCss3Line className="icon css" />
-            </span>
-          </article>
+          <h4>Box-CSS-Preview</h4>
+          <p>
+            Aplicação front-end (React) que lhe permite editar
+            as bordas de um elemento HTML e depois pegar os códigos CSS
+            correspondentes ao estilo feito.
+          </p>
+          <span className="technologies">
+            <DiReact className="icon react" />
+            <DiJavascript1 className="icon js" />
+            <AiOutlineHtml5 className="icon html" />
+            <RiCss3Line className="icon css" />
+          </span>
         </Link>
 
         <Link to="/projects/ecoleta#ecoleta" className="project-link ecoleta">
-          <article className="project">
-            <h4>Ecoleta</h4>
-            <p>
-              Aplicação web que ajuda a registrar e encontrar pontos de coleta
-              de materiais recicláveis.
-            </p>
-            <span className="technologies">
-              <IoLogoNodejs className="icon node" />
-              <DiJavascript1 className="icon js" />
-              <AiOutlineHtml5 className="icon html" />
-              <RiCss3Line className="icon css" />
-            </span>
-          </article>
+          <h4>Ecoleta</h4>
+          <p>
+            Aplicação back-end (Nodejs/Typescript) e front-end (Nunjucks)
+            que ajuda a registrar e encontrar pontos de coleta
+            de materiais recicláveis.
+          </p>
+          <span className="technologies">
+            <IoLogoNodejs className="icon node" />
+            <DiJavascript1 className="icon js" />
+            <AiOutlineHtml5 className="icon html" />
+            <RiCss3Line className="icon css" />
+          </span>
         </Link>
       </div>
     </div>

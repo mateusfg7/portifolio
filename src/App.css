@@ -28,3 +28,9 @@ main#Main {
 div.pages {
   margin: 20px auto auto auto;
 }
+
+@media (max-width: 530px) {
+  div.pages {
+    text-align: center;
+  }
+}
