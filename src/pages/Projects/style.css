@@ -28,9 +28,6 @@ div.projects .project-link {
   transition: 0.2s;
 }
 
-div.projects .project-link span.technologies {
-}
-
 div.projects .project-link span.technologies .icon {
   margin-right: 15px;
   font-size: 22px;
