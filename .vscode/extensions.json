@@ -1,8 +1,11 @@
 {
+<<<<<<< HEAD
   // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
   // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
 
   // List of extensions which should be recommended for users of this workspace.
+=======
+>>>>>>> 3cf60af5fa1abded1d2ecb336be786a5a8cba6bb
   "recommendations": [
     "bierner.color-info",
     "naumovs.color-highlight",
@@ -22,6 +25,7 @@
     "wix.vscode-import-cost",
     "FallenMax.mithril-emmet",
     "ricardo-emerson.react-development-extensions-pack",
+<<<<<<< HEAD
     "jundat95.react-native-snippet",
     "EQuimper.react-native-react-redux",
     "rocketseat.rocketseatreactjs",
@@ -30,3 +34,9 @@
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
   "unwantedRecommendations": []
 }
+=======
+    "jundat95.react-native-snippet"
+  ],
+  "unwantedRecommendations": []
+}
+>>>>>>> 3cf60af5fa1abded1d2ecb336be786a5a8cba6bb
